@@ -67,5 +67,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: CURAM-GUTALAC-V33-biometric-sync-debug-apk
+          name: CURAM-GUTALAC-V32-SYNC-ONLY-debug-apk
           path: curam_app/android/app/build/outputs/apk/debug/app-debug.apk
